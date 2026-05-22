@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import EyebrowLabel from "@/components/ui/EyebrowLabel";
@@ -34,7 +34,7 @@ const objets = [
   { value: "autre", label: "Autre demande" },
 ];
 
-export default function ContactPage() {
+function ContactForm() {
   const searchParams = useSearchParams();
   const [form, setForm] = useState<FormState>(initialState);
   const [sent, setSent] = useState(false);
@@ -464,5 +464,13 @@ export default function ContactPage() {
         }
       `}</style>
     </>
+  );
+}
+
+export default function ContactPage() {
+  return (
+    <Suspense>
+      <ContactForm />
+    </Suspense>
   );
 }
