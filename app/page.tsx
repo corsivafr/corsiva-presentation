@@ -67,7 +67,7 @@ export default function HomePage() {
               <Link href="/flotte" style={{ padding: "13px 28px", border: "1.5px solid var(--gold)", color: "var(--gold)", fontWeight: 600, fontSize: 14, borderRadius: 10, letterSpacing: "0.04em", display: "inline-block" }}>
                 Découvrir la flotte
               </Link>
-              <Link href="/login" style={{ padding: "13px 28px", background: "var(--accent)", color: "#fff", fontWeight: 600, fontSize: 14, borderRadius: 10, letterSpacing: "0.04em", display: "inline-block" }}>
+              <Link href="https://pwa.app-corsiva.fr/login" style={{ padding: "13px 28px", background: "var(--accent)", color: "#fff", fontWeight: 600, fontSize: 14, borderRadius: 10, letterSpacing: "0.04em", display: "inline-block" }}>
                 Accéder à mon espace
               </Link>
             </motion.div>
@@ -314,7 +314,7 @@ export default function HomePage() {
               <Link href="/flotte" style={{ padding: "14px 32px", border: "1.5px solid var(--gold)", color: "var(--gold)", fontWeight: 600, fontSize: 14, borderRadius: 10, display: "inline-block" }}>
                 Découvrir la flotte
               </Link>
-              <Link href="/login" style={{ padding: "14px 32px", background: "var(--accent)", color: "#fff", fontWeight: 600, fontSize: 14, borderRadius: 10, display: "inline-block" }}>
+              <Link href="https://pwa.app-corsiva.fr/login" style={{ padding: "14px 32px", background: "var(--accent)", color: "#fff", fontWeight: 600, fontSize: 14, borderRadius: 10, display: "inline-block" }}>
                 Accéder à mon espace
               </Link>
             </motion.div>
