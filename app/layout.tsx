@@ -24,6 +24,14 @@ export const metadata: Metadata = {
   description:
     "Corsiva, location de véhicules premium à Chambéry, Lyon et en Auvergne-Rhône-Alpes. BMW, Mercedes-Benz, Porsche — pour vos événements, mariages et déplacements d'exception.",
   keywords: "location voiture premium, Chambéry, Lyon, BMW, Porsche, Mercedes, mariage, conciergerie",
+  icons: {
+    icon: [
+      { url: "/icons/corsiva-favicon-clean.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
